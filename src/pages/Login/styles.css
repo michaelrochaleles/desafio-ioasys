@@ -1,0 +1,76 @@
+.App {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.login-header-img :first-child {
+    margin: 100px auto 5px;
+    padding: 0 auto;
+}
+
+.login-header-img-home{
+    display: flex;
+}
+
+.login-header-cabecalho h1 {
+    color: var(--color-charcoal-grey);    
+    width: 250px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.login-header-cabecalho-complemento :first-child {
+    color: var(--color-charcoal-grey);    
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.48;
+    letter-spacing: 0.2px
+}
+
+.login-fieldset {
+    border: none;
+}
+
+.login-fieldset input {
+    border: none;
+}
+
+.login-input {
+    width: 100%;    
+}
+
+.login-input input{
+    width: 90%;
+    height: 90%;
+}
+
+.login-input-email {
+    display: flex;
+    flex-direction: row;        
+    border-bottom: 1px solid #383743;     
+    margin-bottom: 10px;
+}
+
+.login-input-password {
+    display: flex;
+    flex-direction: row;        
+    border-bottom: 1px solid #383743;         
+}
+
+.login-button button {
+    background-color: var(--color-button-azul);
+    border-radius: 3.9px;
+    border: none;
+    width: 450px;
+    height: 50px;
+    color: #ffffff;
+    font-family: GillSans;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 20px;
+}

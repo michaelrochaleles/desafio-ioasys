@@ -1,0 +1,4 @@
+.card-empresa{
+    display: flex;
+    flex-direction: row;
+}
